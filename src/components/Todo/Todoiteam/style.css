@@ -1,0 +1,10 @@
+li {
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px ;
+    box-shadow: rgb(65, 58, 58) 10px 10px 100px ;
+    cursor: pointer;
+
+  
+}

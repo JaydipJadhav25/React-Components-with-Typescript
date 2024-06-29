@@ -1,0 +1,12 @@
+.maincontainer {
+    /* width: 100%; */
+    /* height: 400px; */
+    /* background-color: rgb(165, 95, 230); */
+    /* display: flex; */
+    gap: 2rem;
+}
+
+.maincontainer :hover{
+
+    box-shadow: inset rgb(80, 126, 181) 10px 10px  100px 10px;
+}
