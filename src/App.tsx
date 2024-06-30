@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Todo from './components/Todo';
 import "./app.css"
 import  TODO from "./todos.js"
+import Counter from './Counter/Counter';
 
-console.log("dodo" , TODO.TODOS)
+// console.log("dodo" , TODO.TODOS)
+
 const myTodoitems = TODO.TODOS;
 //  [
 
@@ -30,8 +32,13 @@ const myTodoitems = TODO.TODOS;
 
 
 export const  App : React.FC  = () => {
+ const [state , setState] = useState<boolean>(true)
   return (
     <>   
+     <button onClick={(e)=>setState(!state)}>Togal</button>
+      {state ?   <Counter/> : ""}
+       {/* <Counter/> */}
+      
 
 <h1>ToDos</h1>
 <div>TodoItems :</div>

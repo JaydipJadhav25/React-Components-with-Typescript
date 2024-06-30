@@ -7,7 +7,7 @@ export interface TodoItemProps{
 }
 
 export const Todoitem :React.FC <TodoItemProps>= (Props) => {
-  console.log("props : " , Props)
+  // console.log("props : " , Props)
   return (
    <>
   
